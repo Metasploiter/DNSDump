@@ -8,7 +8,9 @@ import colorama
 colorama.init()
 list_location = str(os.path.dirname(__file__)) + '/domainlist.txt'
 def check_domain_list():
-    if os.path.exists(list_location) or os.path.exists('domain.txt'):
+    if os.path.exists(list_location):
+        pass
+    elif os.path.exists('domain.txt'):
         pass
     else:
         print('domain list file doesn\'t exists !')
