@@ -2,4 +2,4 @@
 <br>
 INSTALL: pip intsall -r requirements.txt
 <br>
-<img src="screenshot.png" /># DNSDump
+<img src="screenshot.png" />
